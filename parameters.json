@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "centralindia"
+        },
+        "networkInterfaceName": {
+            "value": "aivm02449"
+        },
+        "subnetName": {
+            "value": "SUBNET_MASTER"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/48e4fadb-3a62-418e-a0de-85f71ccab5b8/resourceGroups/RG_AI_MASTER/providers/Microsoft.Network/virtualNetworks/VNET_AI_MASTER"
+        },
+        "virtualMachineName": {
+            "value": "AIVM02"
+        },
+        "virtualMachineComputerName": {
+            "value": "AIVM02"
+        },
+        "virtualMachineRG": {
+            "value": "RG_AI_DevOps"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B2s"
+        },
+        "adminUsername": {
+            "value": "user12"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "enableHotpatching": {
+            "value": false
+        }
+    }
+}
